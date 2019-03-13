@@ -1,0 +1,265 @@
+.modal-body
+{
+	font-family: 微軟正黑體;
+}
+
+#left_bar{
+    padding-top: 30px;
+    font-family: 微軟正黑體;
+}
+
+#left_bar ul li{
+    /*color: #3261e1;*/
+    height: 25px;
+    width: 100%;
+}
+
+
+.link{
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.link:link {
+    color: #3261e1;
+    font-size: 15px;
+}
+.link:visited {
+    color: #3261e1;
+    font-size: 15px;
+}
+.link:hover {
+    text-decoration: underline;
+    /*background-color: #eeeeee;*/
+    font-weight: bold;
+}
+.link:active {
+    background-color: #eeeeee;
+}
+
+
+.sidebar_title{
+    font-size: 15px;
+    background-color: #3152c7;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /*border-radius: 5px;*/
+}
+
+.sidebar_link
+{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: 5px;
+}
+
+
+
+
+
+.dropdown-toggle:link {
+    color: #0099FF;
+    background-color: transparent;
+    /*text-decoration: underline;*/
+}
+.dropdown-toggle:visited {
+    color: #0079c9;
+    background-color: transparent;
+    /*text-decoration: underline;*/
+}
+.dropdown-toggle:hover {
+    color: #005792;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.dropdown-toggle:active {
+    color: #005792;
+    background-color: transparent;
+    /*text-decoration: underline;*/
+}
+
+/**/
+
+
+
+
+
+.teacher_block{
+	font-size: 13px;
+	font-family: 微軟正黑體;
+	height: 50px;
+	color:#0d357a;
+	vertical-align: top;
+	height: 100px;
+}
+
+.teacher_name{
+	font-size: 15px;
+	font-family: 微軟正黑體;
+	color: #0d357a;
+	border-bottom: 2px solid #7585b0;
+	border-right: 2px solid #7585b0;
+	background-color: #d1dcfb;
+	padding: 3px;
+	border-radius: 1px;
+	height: 30px;
+}
+
+.col-sm-1{
+	padding-top: 50px;
+}
+
+
+#new_button{
+	background-color: #5cb85c;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-family: 微軟正黑體;
+	border-radius: 5px;
+}
+
+.more_button{
+	vertical-align: center;
+	color: #0d357a;
+}
+
+.delete_button{
+	background-color: #3a57a7;
+	border: none;
+	color: white;
+	font-family: 微軟正黑體;
+	border-radius: 10px;
+}
+
+.edit_button{
+	background-color: #f0ad4e;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-family: 微軟正黑體;
+	border-radius: 5px;
+}
+
+.detail_new_button{
+	background-color: #5cb85c;
+	border: none;
+	color: white;
+	padding: 10px;
+	font-family: 微軟正黑體;
+	border-radius: 5px;
+}
+
+tr{
+	vertical-align: top;
+}
+
+.infor_tr{
+	border-bottom: 1px dotted #c5cde1;
+}
+
+.modal-backdrop{ display: none; }
+
+.t_img{
+	border: 3px #ece6e6 solid;
+	width: 80%;
+	align-content: center;
+}
+
+.email_link:link {
+    color: #0099FF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.email_link:visited {
+    color: #011F4B;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.email_link:hover {
+    color: #33CCFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.email_link:active {
+    color: #33CCFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#location{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+}
+
+.star{
+	color: red;
+}
+
+.detail_add_bar{
+	width: 420px;
+	font-size: small;
+	height: 25px;
+}
+
+.detail_year{
+	width: 50px;
+	font-size: small;
+	height: 25px;
+}
+
+#add_detail{
+	color: #ced3df;
+}
+
+.detail_delete{
+	color: #ced3df;
+}
+
+.detail_word{
+	font-size: small;
+}
+
+.detail_delete_button
+{
+	background-color: white;
+	border: none;
+}
+
+.ba_title{
+	width: 200px;
+}
+
+.ba_comment{
+	width: 500px;
+}
+
+@media (max-width : 767px) { 
+    #de_pic{
+    	display: none;
+    }
+
+    .teacher_block{
+    	font-size: 15px;
+    }
+
+    .d_teacher_block{
+    	font-size: 12px;
+    }
+
+    .ba_title{
+    	width: 500px;
+    }
+
+    .t_img{
+    	width: 150px;
+    }
+    .t_head_title tr td{
+        font-size: 13px;    
+    }
+    .t_d_head_title tr td{
+        font-size: 13px;    
+    }
+}

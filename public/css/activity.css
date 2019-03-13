@@ -1,0 +1,58 @@
+.modal-backdrop{ display: none; }
+
+
+#left_bar{
+    padding-top: 30px;
+    font-family: 微軟正黑體;
+}
+
+#left_bar ul li{
+    /*color: #3261e1;*/
+    height: 30px;
+    width: 100%;
+}
+
+
+.link{
+    /*padding: 5px;*/
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.link:link {
+    color: #3261e1;
+    font-size: 15px;
+}
+.link:visited {
+    color: #3261e1;
+    font-size: 15px;
+}
+.link:hover {
+    /*color: #3F417F;*/
+    text-decoration: underline;
+    background-color: #eeeeee;
+    font-weight: bold;
+    
+}
+.link:active {
+    /*color: #3F417F;*/
+    background-color: #eeeeee;
+}
+
+.sidebar_title{
+    font-size: 18px;
+    background-color: #477bea;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.sidebar_link
+{
+    height: 80px;
+    padding-left: 30px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
