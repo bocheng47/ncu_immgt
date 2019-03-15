@@ -70,8 +70,11 @@
             	@endauth
             {{-- if the user's been authenticated ends. 0 = admins, 1 = teachers. --}}
             
+
             <table class="table table-striped table-dark">
+                @if($auth)
                 <a href="{{ url('enrollment/create') }}" role="btn" class="btn bnt-primary pull-right">新增</a>
+                @endif
                 <thead>
                     <tr>
                         <th scope="col">標題</th>
